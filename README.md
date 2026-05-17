@@ -17,6 +17,15 @@ Solidity와 DeFi 개발자가 되기 위한 학습 기록입니다.
   - Public functions
   - Basic zombie creation logic
 
+## Official Lesson Code Reference
+
+- Official repo: [CryptozombiesHQ/cryptozombies-lesson-code](https://github.com/CryptozombiesHQ/cryptozombies-lesson-code)
+- Local reference: `references/cryptozombies-lesson-code`
+- Lesson 1 source: `references/cryptozombies-lesson-code/lesson-1`
+- GitHub Lesson 1 source: [lesson-1](https://github.com/CryptozombiesHQ/cryptozombies-lesson-code/tree/master/lesson-1)
+
+The official lesson code is included as a Git submodule for study reference only. These samples are not production-ready, and the original repository is licensed under GPL-3.0.
+
 ## Reflection
 
 CryptoZombies Lesson 1을 통해 Solidity로 데이터를 정의하고 함수를 통해 상태를 변경하는 기본 흐름을 익혔습니다.

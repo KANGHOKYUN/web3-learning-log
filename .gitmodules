@@ -1,0 +1,3 @@
+[submodule "references/cryptozombies-lesson-code"]
+	path = references/cryptozombies-lesson-code
+	url = https://github.com/CryptozombiesHQ/cryptozombies-lesson-code.git
