@@ -31,14 +31,30 @@ Solidity와 DeFi 개발자가 되기 위한 학습 기록입니다.
   - External contract interfaces for CryptoKitties
   - DNA mixing logic for zombie feeding
 
+### Lesson 3: Advanced Solidity Concepts
+
+- Result: BLOX reached level 3, SATA reached level 2
+- Share: [BLOX Lesson 3 Zombie Army](https://share.cryptozombies.io/ko/lesson/3/share/BLOX?id=Y3p8NjczNTA4)
+- Updated: renamed the former NoName kitty zombie to SATA
+- Learned:
+  - `Ownable` ownership pattern
+  - `modifier` usage for reusable access checks
+  - `onlyOwner` for protected admin functions
+  - Gas and storage optimization basics
+  - Zombie levels and cooldown timers
+  - Level-gated `changeName` and `changeDna` functions
+  - Returning owner-specific zombie armies with view functions
+
 ## Official Lesson Code Reference
 
 - Official repo: [CryptozombiesHQ/cryptozombies-lesson-code](https://github.com/CryptozombiesHQ/cryptozombies-lesson-code)
 - Local reference: `references/cryptozombies-lesson-code`
 - Lesson 1 source: `references/cryptozombies-lesson-code/lesson-1`
 - Lesson 2 source: `references/cryptozombies-lesson-code/lesson-2`
+- Lesson 3 source: `references/cryptozombies-lesson-code/lesson-3`
 - GitHub Lesson 1 source: [lesson-1](https://github.com/CryptozombiesHQ/cryptozombies-lesson-code/tree/master/lesson-1)
 - GitHub Lesson 2 source: [lesson-2](https://github.com/CryptozombiesHQ/cryptozombies-lesson-code/tree/master/lesson-2)
+- GitHub Lesson 3 source: [lesson-3](https://github.com/CryptozombiesHQ/cryptozombies-lesson-code/tree/master/lesson-3)
 
 The official lesson code is included as a Git submodule for study reference only. These samples are not production-ready, and the original repository is licensed under GPL-3.0.
 
@@ -52,9 +68,13 @@ CryptoZombies Lesson 2에서는 좀비 소유권을 `mapping`으로 관리하고
 
 또한 `import`, 상속, 외부 컨트랙트 인터페이스를 사용해 CryptoKitties 컨트랙트의 데이터를 읽고, 기존 좀비 DNA와 섞어 새로운 좀비를 만드는 흐름을 정리했습니다.
 
+CryptoZombies Lesson 3에서는 `Ownable`과 `modifier`를 통해 관리자 권한을 분리하고, 레벨과 쿨다운을 추가해 게임 로직을 더 안전하게 확장하는 방법을 배웠습니다.
+
+특히 `onlyOwner`로 외부 컨트랙트 주소 변경 함수를 보호하고, `view` 함수로 사용자의 좀비 군대만 반환하는 패턴을 실습했습니다.
+
 ## Next Steps
 
-- Start CryptoZombies Lesson 3 and keep adding progress notes.
+- Start CryptoZombies Lesson 4 and keep adding progress notes.
 - Build a simple ERC20 staking vault with tests.
 - Build a mini AMM inspired by Uniswap v2.
 - Study DeFi security challenges and write short vulnerability notes.
